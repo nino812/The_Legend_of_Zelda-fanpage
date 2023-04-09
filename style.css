@@ -1,0 +1,133 @@
+body {
+  background: url(images/zelda5.jpg) no-repeat center center ;
+  background-size: cover;
+  margin: 0;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(31, 29, 30, 0.8);
+  color:bisque;
+  padding:5px;
+  
+}
+.logo{
+    font-size: 40px;
+    margin-left:50px;
+    font-family:Sofia, Times, serif;
+    text-shadow:
+    /* White glow */
+    0 0 7px bisque,
+    0 0 7px bisque,
+    0 0 15px bisque;
+}
+ul {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  gap: 15px;
+  list-style-type: none;
+  font-size: 20px;
+  margin-right:50px;
+}
+
+a{
+    text-decoration: none;
+    color:bisque;
+
+}
+main{
+  
+}
+.welcome{
+    font-family: Bitter,Serif;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    width:600px;
+    height:700px;
+    padding:20px;
+    margin-top:20px;
+    width:100%;
+    
+}
+.welcome h1{
+  font-size: 60px;
+  margin-top:0px;
+  margin:20px;
+  color:rgb(17, 16, 15);
+     font-weight: 1000;
+  font-family: Bitter;
+  
+}
+.welcome p{
+     font-size: 40px;
+     color:rgb(17, 16, 15);
+     font-weight: 900;
+     text-decoration:wavy;
+}
+button{
+  align-self: center;
+  padding:20px 30px;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color:rgb(17, 16, 15);
+  border-color: bisque;
+  color:bisque;
+  
+}
+.about{
+  background-color: rgba(31, 29, 30, 0.9);
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  padding:15px;
+  padding-top:0;
+  height:200px;
+  color:bisque;
+}
+.about p{
+  font-size: 19px;
+}
+.about h1{
+  font-family: Sofia;
+  font-size: 30px;
+}
+.gallery{
+  margin-top:200px;
+  background-color: rgba(31, 29, 30, 0.8);
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+  height:500px;
+  margin-bottom:50px;
+}
+  .gallery h1{
+    color:bisque;
+    font-family: Sofia;
+    font-size: 30px;
+   
+  }
+  .images{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap:wrap;
+      gap:10px;
+      width: 900px;
+    }
+    img{
+      width: 200px;
+      height:160px;
+    }
+
+footer{
+  background-color: rgba(31, 29, 30, 0.8);
+  padding:5px;
+  color:bisque;
+  text-align: center;
+}
